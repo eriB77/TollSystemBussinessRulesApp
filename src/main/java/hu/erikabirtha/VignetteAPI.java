@@ -1,4 +1,7 @@
 package hu.erikabirtha;
 
-public class VignetteAPI {
+public interface VignetteAPI {
+    void findVehicleByRegistrationNumber(String jsonObject);
+
+
 }

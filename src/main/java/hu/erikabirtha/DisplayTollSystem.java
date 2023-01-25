@@ -4,4 +4,6 @@ public interface DisplayTollSystem {
     void dislayMotorwayVignette(String s);
     void displayError(String s);
     void displayOk(String s);
+
+    void findVehicleByRegistrationNumber(String jsonObject);
 }
