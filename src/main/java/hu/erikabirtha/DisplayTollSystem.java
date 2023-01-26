@@ -6,4 +6,5 @@ public interface DisplayTollSystem {
     void displayOk(String s);
 
     void findVehicleByRegistrationNumber(String jsonObject);
+
 }
